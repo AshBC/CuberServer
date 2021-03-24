@@ -3,7 +3,8 @@ const morgan = require ('morgan');
 const app = express ();
 const cors = require ('cors');
 const siteRoutes= require ('./routes/siteRoutes');
-const PORT = 3001;
+// const PORT = 3001;
+var PORT = process.env.PORT || 8080;
 
 app.use(cors());
 app.use(morgan());

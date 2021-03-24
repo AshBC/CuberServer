@@ -5,7 +5,10 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.9.3"
   },
   "author": "ashleeConery",
   "license": "ISC",
