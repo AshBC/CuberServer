@@ -60,7 +60,7 @@ router.post("/", (req, res) => {
             description: req.body.description,
             timestamp: req.body.timestamp,
             video: req.body.video,
-            image: "http://localhost:3001/imgs/floatingCube.jpg",
+            image: "https://cubes-server.herokuapp.com/imgs/floatingCube.jpg",
             comments: [],
         };
         VList.push(newVideo);
